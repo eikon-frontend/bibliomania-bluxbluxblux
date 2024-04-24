@@ -1,7 +1,7 @@
 /* 💡 Configuration des styles du sélecteur de note */
 :root {
-  --gl-star-empty: url(../img/star-empty.svg);
-  --gl-star-full: url(../img/star-full.svg);
+  --gl-star-empty: url(../img/empty.svg);
+  --gl-star-full: url(../img/full.svg);
   --gl-star-size: 24px;
   --gl-tooltip-border-radius: 4px;
   --gl-tooltip-font-size: 0.875rem;
@@ -13,3 +13,10 @@
 }
 
 /* 🦊 Vos styles ici */
+body {
+  background-color: #848484;
+}
+
+.écran {
+  padding: 42px;
+}
