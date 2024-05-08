@@ -1,32 +1,181 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+  <div class="écran">
+
+
+    <div class="info">
+      <p>Informations du livre</p>
+      <img src="img/out.png" alt="out" />
+    </div>
+
+    <!--couverture plus info-->
+    <div class="entier">
+
+      <div class="couv">
+        <img src="img/couverture1.png" alt="couv" <img />
+      </div>
+      <div class="détail-livre">
+        <div class="detail">
+          <div class="livre">
+            <h1>La chute du Niagara</h1>
+            <h2>Par Philippa Trinllord</h2>
+          </div>
+          <!-- fin couverture plus info-->
+          <!-- boutton gris-->
+          <div class="selection">
+            <div class="catégorie">
+              <p>Policier </p>
+            </div>
+            <div class="catégorie">
+              <p>Horreur</p>
+            </div>
+          </div>
+          <!--fin boutton gris-->
+          <p class="Publication">Publié le 7 décembre 2012</p>
+
+        </div>
+        <!--avis-->
+        <div class="avis">
+          <p>Avis en moyenne :</p>
+          <select class="star-rating" aria-label="Note utilisateur">
             <option value="">Select a rating</option>
             <option value="5">Excellent</option>
             <option value="4">Very Good</option>
             <option value="3">Average</option>
             <option value="2">Poor</option>
             <option value="1">Terrible</option>
+          </select>
+        </div>
+        <!--fin avis-->
+      </div>
+    </div>
+    <!--boutton blanc-->
+    <div class="boutton-liste">
+      <div class="selec2">
+        <div class="lu">
+          <p>Relire</p>
+        </div>
+
+        <div class="lu">
+          <p>Lu</p>
+          <img class="vue" src="img/vue.png" alt="vue" <img />
+        </div>
+      </div>
+      <div class="trash">
+        <img src="img/trash.png" alt="trash" <img />
+      </div>
+    </div>
+    <!--fin boutton blanc-->
+
+    <!--histoire-->
+    <div>
+      <p class="story">L'histoire raconte celle d'un tueur en série nommé Niagara. Il était très discret et n'avait
+        jamais été pris
+        par
+        la
+        police, mais un jour, Niagara a décidé de laisser des traces. Va-t-il se faire arrêter ?</p>
+    </div>
+    <!--fin histoire-->
+
+    <!--note-->
+    <div class="AvisAllign">
+      <div class="avis">
+        <p>Donnez votre avis :</p>
+        <select class="star-rating" aria-label="Note utilisateur">
+          <option value="">Select a rating</option>
+          <option value="5">Excellent</option>
+          <option value="4">Very Good</option>
+          <option value="3">Average</option>
+          <option value="2">Poor</option>
+          <option value="1">Terrible</option>
         </select>
+      </div>
+      <div class="collection">
+        <img src="img/bouton_collection.png" alt="collection" <img />
+      </div>
+    </div>
+    <!--fin note-->
+
+    <!--commentaires-->
+
+    <div class="commentairediv">
+      <div>
+        <p class="Commentaire">Commentaires</p>
+      </div>
+    </div>
+    <!--fin commentaires-->
+
+    <!--comm sarah-->
+    <div class="sarah">
+      <img src="img/pp_sahra.png" alt="pp_sahra" <img />
+      <div class="Moi">
+        <h1>Moi</h1>
+      </div>
+      <div class="commentaireSarah">
+        <p>Ajouter un commentaire...</p>
+      </div>
+    </div>
+    <!--fin comm sarah-->
+
+    <!--comm heud-->
+    <div class="heud">
+      <img src="img/pp_heud.png" alt="pp_heud" <img />
+      <div class="heud le bg">
+        <h1>Heud le bg</h1>
+        <div class="jours">
+          <p>2 jours</p>
+        </div>
+      </div>
+      <div class="commentaire heud">
+        <p>En vrai, en vrai de vrai... SAH j’ai pas aimé.</p>
+        <div class="coeur">
+          <img src="img/coeur.png" alt="coeur" <img />
+          <p class="voi-comm">2</p>
+        </div>
+        <div class="Réponse">
+          <p>Répondre</p>
+        </div>
+      </div>
+    </div>
+    <!--fin comm heud-->
+
+    <div class="voi-comm">
+      <p>Voir les 46 commentaires</p>
+    </div>
+
+  </div>
+
+  <div>
+    <img src="img/Barre de navigations.png" alt="navigations" <img />
+  </div>
+
+
+
+
+
+
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+  <!-- 
+        
     -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+  <!-- 💡 Script pour gérer le rating d'un livre -->
+  <script src="scripts/star-rating.min.js"></script>
+  <script>
+    var stars = new StarRating(".star-rating", {
+      tooltip: "Choisissez votre note",
+    });
+  </script>
+</body>
+
 </html>
