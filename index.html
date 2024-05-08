@@ -20,62 +20,68 @@
     </div>
 
     <!--couverture plus info-->
-    <div class="couv">
-      <img src="img/couverture1.png" alt="couv" <img />
-      <div class="livre">
-        <h1>La chute du Niagara</h1>
-        <p>Par Philippa Trinllord</p>
+    <div class="entier">
+
+      <div class="couv">
+        <img src="img/couverture1.png" alt="couv" <img />
+      </div>
+      <div class="détail-livre">
+        <div class="detail">
+          <div class="livre">
+            <h1>La chute du Niagara</h1>
+            <h2>Par Philippa Trinllord</h2>
+          </div>
+          <!-- fin couverture plus info-->
+          <!-- boutton gris-->
+          <div class="selection">
+            <div class="catégorie">
+              <p>Policier </p>
+            </div>
+            <div class="catégorie">
+              <p>Horreur</p>
+            </div>
+          </div>
+          <!--fin boutton gris-->
+          <p class="Publication">Publié le 7 décembre 2012</p>
+
+        </div>
+        <!--avis-->
+        <div class="avis">
+          <p>Avis en moyenne :</p>
+          <select class="star-rating" aria-label="Note utilisateur">
+            <option value="">Select a rating</option>
+            <option value="5">Excellent</option>
+            <option value="4">Very Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Terrible</option>
+          </select>
+        </div>
+        <!--fin avis-->
       </div>
     </div>
-    <!-- fin couverture plus info-->
-
-    <!-- boutton gris-->
-    <div class="selection">
-      <div class="police">
-        <p>Policier </p>
-      </div>
-      <div class="Horreur">
-        <p>Horreur</p>
-      </div>
-    </div>
-    <!--fin boutton gris-->
-
-    <div>
-      <p>Publié le 7 décembre 2012</p>
-    </div>
-
-    <!--avis-->
-    <div class="avis">
-      <p>Avis en moyenne :</p>
-      <select class="star-rating" aria-label="Note utilisateur">
-        <option value="">Select a rating</option>
-        <option value="5">Excellent</option>
-        <option value="4">Very Good</option>
-        <option value="3">Average</option>
-        <option value="2">Poor</option>
-        <option value="1">Terrible</option>
-      </select>
-    </div>
-    <!--fin avis-->
-
     <!--boutton blanc-->
-    <div class="selec2">
-      <div class="Relire">
-        <p>Relire</p>
-      </div>
-      <div class="lu">
-        <p>Lu</p>
-        <img src="img/vue.png" alt="vue" <img />
+    <div class="boutton-liste">
+      <div class="selec2">
+        <div class="lu">
+          <p>Relire</p>
+        </div>
+
+        <div class="lu">
+          <p>Lu</p>
+          <img class="vue" src="img/vue.png" alt="vue" <img />
+        </div>
       </div>
       <div class="trash">
-        <img src="img/trash.png alt=" trash" <img />
+        <img src="img/trash.png" alt="trash" <img />
       </div>
     </div>
     <!--fin boutton blanc-->
 
     <!--histoire-->
-    <div class="story">
-      <p>L'histoire raconte celle d'un tueur en série nommé Niagara. Il était très discret et n'avait jamais été pris
+    <div>
+      <p class="story">L'histoire raconte celle d'un tueur en série nommé Niagara. Il était très discret et n'avait
+        jamais été pris
         par
         la
         police, mais un jour, Niagara a décidé de laisser des traces. Va-t-il se faire arrêter ?</p>
@@ -83,16 +89,18 @@
     <!--fin histoire-->
 
     <!--note-->
-    <div>
-      <p>Donnez votre avis :</p>
-      <select class="star-rating" aria-label="Note utilisateur">
-        <option value="">Select a rating</option>
-        <option value="5">Excellent</option>
-        <option value="4">Very Good</option>
-        <option value="3">Average</option>
-        <option value="2">Poor</option>
-        <option value="1">Terrible</option>
-      </select>
+    <div class="AvisAllign">
+      <div class="avis">
+        <p>Donnez votre avis :</p>
+        <select class="star-rating" aria-label="Note utilisateur">
+          <option value="">Select a rating</option>
+          <option value="5">Excellent</option>
+          <option value="4">Very Good</option>
+          <option value="3">Average</option>
+          <option value="2">Poor</option>
+          <option value="1">Terrible</option>
+        </select>
+      </div>
       <div class="collection">
         <img src="img/bouton_collection.png" alt="collection" <img />
       </div>
@@ -100,8 +108,11 @@
     <!--fin note-->
 
     <!--commentaires-->
-    <div>
-      <p>Commentaires</p>
+
+    <div class="commentairediv">
+      <div>
+        <p class="Commentaire">Commentaires</p>
+      </div>
     </div>
     <!--fin commentaires-->
 
@@ -111,7 +122,7 @@
       <div class="Moi">
         <h1>Moi</h1>
       </div>
-      <div class="commentaire sarah">
+      <div class="commentaireSarah">
         <p>Ajouter un commentaire...</p>
       </div>
     </div>
@@ -130,7 +141,7 @@
         <p>En vrai, en vrai de vrai... SAH j’ai pas aimé.</p>
         <div class="coeur">
           <img src="img/coeur.png" alt="coeur" <img />
-          <p>2</p>
+          <p class="voi-comm">2</p>
         </div>
         <div class="Réponse">
           <p>Répondre</p>
@@ -139,10 +150,10 @@
     </div>
     <!--fin comm heud-->
 
-    <div class="voir comm">
+    <div class="voi-comm">
       <p>Voir les 46 commentaires</p>
     </div>
-  </div>
+
   </div>
 
   <div>

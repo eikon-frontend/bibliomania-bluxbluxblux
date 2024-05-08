@@ -15,8 +15,170 @@
 /* 🦊 Vos styles ici */
 body {
   background-color: #848484;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 430px;
+  max-height: 1192px;
+  margin: auto;
 }
 
+.avis {
+  color: #D7D7D7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+
+}
+
+.avis p {
+  margin: 0px;
+}
+
+.AvisAllign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #D7D7D7;
+}
+
+.boutton-liste {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.Commentaire {
+  display: flex;
+  align-self: center;
+  border-top: 1px solid #CDCDCD;
+  padding-top: 20px;
+}
+
+.commentairediv {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.couv {
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.commentaireSarah {
+  color: #CDCDCD;
+  background-color: #727171;
+  border-radius: 5px;
+}
+
+.catégorie {
+  padding: 5px 10px;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+}
+
+.catégorie p {
+  margin: 0;
+}
+
+.détail-livre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detail {}
+
 .écran {
-  padding: 42px;
+  padding: 20px;
+}
+
+.entier {
+  display: flex;
+  flex-direction: row;
+}
+
+.entier h1 {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 27px;
+}
+
+.info p {
+  font: size 24pt;
+}
+
+.lu {
+  color: #3B3B3B;
+  background-color: #ffff;
+  border-radius: 5px;
+
+  padding: 10px 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lu p {
+  margin: 0px;
+}
+
+.Publication {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.selec2 {
+  display: flex;
+  gap: 30px;
+}
+
+.selection {
+  display: flex;
+  font-weight: lighter;
+  gap: 5px;
+  color: #848484;
+  flex-shrink: 1;
+}
+
+.story {
+  font-weight: lighter;
+}
+
+.trash {
+  justify-content: flex-end;
+}
+
+
+
+.voi-comm {
+  color: #4C4C4C;
+}
+
+
+.vue {
+
+  margin-left: 5px;
+  max-height: 21.65px;
+
 }
